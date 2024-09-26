@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 nav {
-  background-color: beige;
+  background-color:brown;
   display: flex;
   justify-content: space-between;
   /* border: 1px solid blue; */
@@ -17,7 +18,6 @@ nav {
   text-decoration: none;
   color: blue;
   font-size: 15px;
-
 }
 
 .menu {
@@ -32,14 +32,16 @@ nav {
 
 .menu li a {
   text-decoration: none;
-  color: blue;
+  color:white;
   font-size: 10px;
 }
 
 .banner {
-  background-color: rgb(238, 183, 183);
-  color: blue;
+  background-color:bisque;
+  color:brown;
   height: 810px;
+  border-radius: 15px;
+  border: 5px solid rgb(246, 135, 135);
 }
 
 .banner-info img {
@@ -54,6 +56,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 20px;
 }
 
 main {
@@ -75,28 +78,36 @@ main img {
 }
 
 #EDUCATION {
-  background-image: url("/img/กะ.jpg");
+  background-color:bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 30px;
+  color:brown;
+  border-radius: 15px;
+  border: 5px solid rgb(246, 135, 135);
 }
 
 #EXPERIENCE {
-  background-image: url("/img/กะ.jpg");
+  background-color:bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 30px;
+  color:brown;
+  border-radius: 15px;
+  border: 5px solid rgb(246, 135, 135);
 }
 
 #CONTACT {
-  background-image: url("/img/กะ.jpg");
+  background-color:bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
+  color:brown;
   font-size: 20px;
+  border-radius: 15px;
+  border: 5px solid rgb(246, 135, 135);
 }
 
 .logo {
@@ -113,20 +124,26 @@ main img {
 }
 
 #PORTFOLIO {
-  background-image: url("/img/กะ.jpg");
+  background-color:bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color:brown;
+  border-radius: 15px;
+  border: 5px solid rgb(246, 135, 135);
 }
 
 #API {
-  background-image: url("/img/กะ.jpg");
+  background-color:bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color:brown;
+  border-radius: 15px;
+  border: 5px solid rgb(246, 135, 135);
 }
 footer {
-  background-color: beige;
+  background-color:brown;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,6 +151,7 @@ footer {
   text-align: center;
   padding: 0 5rem;
   font-size: 25px;
+  color:white;
   @media screen and (max-width: 700px) {
     flex-direction: column;
     height: auto;

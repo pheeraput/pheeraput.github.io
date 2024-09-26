@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    background-color:brown;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    font-size: 20px; 
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+  
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+    font-size: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+  }
+  
+  .banner {
+    background-color:bisque;
+    color:brown;
+    height: 810px;
+  }
+  
+  .banner-info img {
+    width: 300px;
+    border-radius: 100%;
+    margin: 1rem 0;
+  }
+  
+  .banner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  main div {
+    padding: 20px;
+  }
+  
+  main div p {
+    margin-top: 10px;
+  }
+  
+  main img {
+    width: 30%;
+    margin: 1rem 0;
+  }
+  
+  #EDUCATION {
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color:brown;
+  }
+  
+  #EXPERIENCE {
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color:brown;
+  }
+  
+  #CONTACT {
+    background-color: rgb(172, 225, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  & .link-img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  #PORTFOLIO {
+    background-color: rgb(172, 225, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #API {
+    background-color: rgb(172, 225, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    background-color:brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5rem;
+    font-size: 25px;
+    color:white;
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+      height: auto;
+      font-size: 15px;
+      padding-bottom: 1rem;
+    }
+  }
