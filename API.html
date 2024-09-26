@@ -39,12 +39,63 @@
     <main>
       <div id="API">      
           <h3>API</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-            sint, odio corporis est mollitia neque! Ipsum ex possimus molestiae
-            porro nostrum libero, sequi doloribus quas voluptas, nulla
-            reprehenderit. Temporibus, expedita!
-          </p>    
+          <div class="boxtable">
+            <table>
+              <tr>
+                <th class="table-th">Sensor</th>
+                <th class="table-th">Value</th>
+                <th class="table-th">Unit</th>
+              </tr>
+              <tr>
+                <td>Timestamp</td>
+                <td class="td-sensor"><div id="timestamp"></div></td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Temp</td>
+                <td class="td-sensor"><div id="temperature"></div></td>
+                <td>°C</td>
+              </tr>
+              <tr>
+                <td>Luxsensor</td>
+                <td class="td-sensor"><div id="luxsensor"></div></td>
+                <td>Lux</td>
+              </tr>
+              <tr>
+                <td>Humidity</td>
+                <td class="td-sensor"><div id="humidity"></div></td>
+                <td>%RH</td>
+              </tr>
+              <tr>
+                <td>Motion</td>
+                <td class="td-sensor"><div id="motion"></div></td>
+                <td>-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+  
+        <div id="api-post">
+          <!-- Added id here -->
+          <h3>EDUCATION</h3>
+          <div class="api-post">
+              <form onsubmit="event.preventDefault(); submitData();">
+                  <div class="api-post-box-name">
+                      <p class="text-titleonbox" >NAME</p>
+                      <input class="box-input-text" type="text" id="studentId" required placeholder="Enter StudentID">
+                  </div>
+                  <div class="api-post-box-id">
+                      <p class="text-titleonbox" >ID</p>
+                      <input class="box-input-text" type="text" id="studentName" required placeholder="Enter name">
+                  </div>
+                  <div class="api-post-box-sent">
+                      <input class="api-post-box-sent-submit" type="submit" >
+                  </div>
+              </div>
+              </form>
+          </div>
+          <script src="post.js"></script>
+          </div>    
       </div>
     </main>
     <footer>
