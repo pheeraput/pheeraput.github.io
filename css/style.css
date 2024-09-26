@@ -10,26 +10,14 @@ nav {
   justify-content: space-between;
   /* border: 1px solid blue; */
   padding: 10px;
-  font-size: 20px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 10px;
-    padding-bottom: 1rem;
-  }
-  
+  font-size: 20px; 
 }
 
 .logo a {
   text-decoration: none;
   color: blue;
   font-size: 15px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 1rem;
-  }
+
 }
 
 .menu {
@@ -40,24 +28,12 @@ nav {
 .menu li {
   margin-left: 20px;
   font-size: 10px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 1rem;
-  }
 }
 
 .menu li a {
   text-decoration: none;
   color: blue;
   font-size: 10px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 1rem;
-  }
 }
 
 .banner {
@@ -104,12 +80,6 @@ main img {
   flex-direction: column;
   align-items: center;
   font-size: 30px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 1rem;
-  }
 }
 
 #EXPERIENCE {
@@ -118,13 +88,6 @@ main img {
   flex-direction: column;
   align-items: center;
   font-size: 30px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 1rem;
-  }
-
 }
 
 #CONTACT {
@@ -134,12 +97,6 @@ main img {
   align-items: center;
   color: black;
   font-size: 20px;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 1rem;
-  }
 }
 
 .logo {
