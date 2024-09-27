@@ -6,7 +6,7 @@ function updateData() {
       document.getElementById('timestamp').textContent = data.timestamp;
       document.getElementById('temperature').textContent = data.temperature.toFixed(2);
       document.getElementById('humidity').textContent = data.humidity.toFixed(2);
-      document.getElementById('luxsensor').textContent = data.luxsensor.toFixed(2);s
+      document.getElementById('luxsensor').textContent = data.luxsensor.toFixed(2);
       document.getElementById('motion').textContent = data.motion;
     });
   }
