@@ -94,3 +94,12 @@
       padding-bottom: 1rem;
     }
   }
+
+.boxtable{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table td,.table th{
+  border: 2px solid #000;
+}

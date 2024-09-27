@@ -145,6 +145,29 @@ main img {
   border-radius: 15px;
   border: 5px solid rgb(246, 135, 135);
 }
+
+.boxtable{
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+  .table, td,th{
+  border: 3px solid whitesmoke;
+   background-color: wheat; 
+   
+}
+
+.table-th{
+  font-size: 15px;
+  padding: 20px 50px;
+  justify-content: center;
+    align-items: center;
+}
+
+
+
 footer {
   background-color:brown;
   display: flex;
