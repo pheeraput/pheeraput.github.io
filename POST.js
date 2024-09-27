@@ -20,12 +20,12 @@ async function submitData() {
         });
 
         if (response.ok) {
-            alert("ส่งไปแล้ว");
+            alert("ส่งไปได้");
         } else {
-            alert("ส่ง");
+            alert("ส่งไม่ได้");
         }
     } catch (error) {
         console.error("Error:", error);
-        alert("ส่งบ่ได้เด้ออออ!!!");
+        alert("ส่งไม่ได้");
     }
 }
